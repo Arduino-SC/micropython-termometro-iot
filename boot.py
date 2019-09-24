@@ -9,7 +9,7 @@ def do_connect():
 
     if not wlan.isconnected():
         print('connecting to network...')
-        wlan.connect('mimimi', 'phplandia')
+        wlan.connect('SSID_DA_SUA_REDE', 'SENHA_DA_SUA_REDE')
 
         while not wlan.isconnected():
             pass
